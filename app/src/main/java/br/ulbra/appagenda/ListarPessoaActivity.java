@@ -23,7 +23,7 @@ public class ListarPessoaActivity extends AppCompatActivity {
     private ListView listview;
     private PessoaDAO dao;
     private List<Pessoa> pessoas;
-    private List<Pessoa> pessoasFiltrados = new ArrayList<>();
+    private List<Pessoa> pessoasFiltrados = new ArrayList<Pessoa>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
